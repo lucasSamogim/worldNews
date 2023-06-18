@@ -1,3 +1,71 @@
+# Projeto de Notícias Diárias
+
+Este projeto é uma página desenvolvida em React.js que utiliza as bibliotecas Tailwind CSS, React Router DOM e Axios. O objetivo do projeto é carregar e exibir notícias importantes do dia, utilizando a API 'The News API' (https://www.thenewsapi.com/documentation).
+
+## Pré-requisitos
+
+Certifique-se de ter o Node.js instalado em sua máquina antes de prosseguir com as etapas de instalação e execução do projeto.
+
+## Instalação
+
+1. Clone este repositório em sua máquina local utilizando o seguinte comando:
+
+   ```
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+
+2. Navegue até o diretório do projeto:
+
+   ```
+   cd seu-repositorio
+   ```
+
+3. Instale as dependências do projeto utilizando o npm ou yarn:
+
+   ```
+   npm install
+   ```
+
+   ou
+
+   ```
+   yarn install
+   ```
+
+## Configuração da API
+
+1. Acesse o site da API 'The News API' em https://www.thenewsapi.com/documentation e crie uma conta.
+
+2. Após criar a conta, obtenha sua chave de API para autenticação.
+
+3. No diretório raiz do projeto, crie um arquivo `.env` e adicione sua chave de API da seguinte maneira:
+
+   ```
+   REACT_APP_API_KEY=SUA_CHAVE_DE_API
+   ```
+
+## Executando o projeto
+
+Após a conclusão da instalação e configuração, você pode executar o projeto localmente. Utilize o seguinte comando:
+
+```
+npm start
+```
+
+ou
+
+```
+yarn start
+```
+
+A página será aberta em seu navegador padrão e você poderá visualizar as notícias importantes do dia.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou correções de bugs, fique à vontade para abrir uma issue ou enviar um pull request.
+
+##
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
